@@ -5,6 +5,7 @@ $primary-color: #00e673;
 
 body {
   font: 100% $font-stack;
+  background-color: $primary-color
   h1{
     color: $primary-color;
   }
