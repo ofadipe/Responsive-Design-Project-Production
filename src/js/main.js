@@ -19,3 +19,17 @@ console.log(im_cool())
 const app = new Vue({
     el: '#app',
 });
+
+//Menu Nav
+
+function newFunction() {
+    function myFunction() {
+        var x = document.getElementById("mynav");
+        if (x.className === "nav") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "nav";
+        }
+    }
+}
