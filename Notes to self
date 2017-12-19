@@ -1,7 +1,4 @@
-I need to change the names of classes, because I'm adding new max widths for screen sizes
+Find out how to sort out the Hamburger menu issue (probably JS issue)
+Sort out the column size issue, so everything fits perfectly 
 
-Look over Joe's notes, most things I need are in there
-https://github.com/joeappleton18/swd500_2017/blob/master/sessions/session4.0/README.md 
-https://github.com/joeappleton18/swd500_2017/blob/master/sessions/session4.1/README.md 
-Also have a look through this https://www.youtube.com/watch?v=M3qBpPw77qo 
-
+Look into http://velocityjs.org/#svg and  https://daneden.github.io/animate.css/ 
