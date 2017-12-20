@@ -9,6 +9,7 @@ I created this website using Visual Studio Code.
 ## Step to Build/Compile Website Assesets
 
 ## Coding Standards
+Link to SASS file stucture which is 7-1 pattern (which I changed slightly) <<https://www.sitepoint.com/architecture-sass-project/>> and  http://vanseodesign.com/css/sass-directory-structures/
 
 ## Git Branching Strategy
 
