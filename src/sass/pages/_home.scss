@@ -1,17 +1,18 @@
-$padding: 6px;
 
-nav {
-  ul {
-    margin: 0;
-    padding: $padding;
-    list-style: none;
-  }
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+  background: pink;
+}
 
-  li { display: inline-block; }
 
-  a {
-    display: block;
-    padding: $padding 12px;
-    text-decoration: none;
-  }
+
+
+
+li {
+  display: block;
 }
