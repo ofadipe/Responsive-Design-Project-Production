@@ -1,16 +1,20 @@
-# Web_Design Assignment
+# :sparkles: Web_Design Assignment :sparkles:
 
 ## Introduction
 
 This is my Web Design Project for Fadipe Designs.
 As part of the assignment I had to create a responsive website.
-I created this website using Visual Studio Code.
+I created this website using `Visual Studio Code`.
 
 ## Step to Build/Compile Website Assesets
+I will be using Joe Appleton's `Vue`, `Webpack` and  repo which will compile the `SASS`. 
+Everything will be compiled in the `bundle.js`file.  
+
 
 ## Coding Standards
 Link to SASS file stucture which is 7-1 pattern (which I changed slightly) <<https://www.sitepoint.com/architecture-sass-project/>> and  http://vanseodesign.com/css/sass-directory-structures/
 
 ## Git Branching Strategy
+I will be using my version of Git Flow as my branching strategy. The original Git Flow can be found here http://datasift.github.io/gitflow/IntroducingGitFlow.html  
 
 ## URL to Live Website
