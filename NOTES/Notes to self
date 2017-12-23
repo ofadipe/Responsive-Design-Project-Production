@@ -1,7 +1,8 @@
-Finish sorting out the SASS!
 
-Find out how to sort out the Hamburger menu issue (probably JS issue)
+
+Find out how to sort out the Hamburger menu issue (goes bit weird when responsive)
 Sort out the column size issue, so everything fits perfectly 
+Sort out png issue when responsive
 
 Look into http://velocityjs.org/#svg and  https://daneden.github.io/animate.css/  and https://vuejsexamples.com/
 
