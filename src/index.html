@@ -1,22 +1,64 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Landing Page Template With Flexbox</title>
+
+	
+    <link rel="stylesheet" href="assignment/src/css/styles.css">
+
 </head>
+
 <body>
 
-<h1>Hello World  </h1>
-<img src="images/solent.jpg" alt="">
-<div id="app">
+	<header>
+		<h2><a href="#"> <img src="logo.png" alt="My Logo">
+		</a></h2>
+		<nav>
+			
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact Me</a></li>
+            <li><a href="#">Skills</a></li>
+            x<li><a href="#">Contact Me</a></li>
+            <li><a href="#">Portfolio</a></li>
+		</nav>
+	</header>
 
-    <hello-component></hello-component>
+
+	<section class="hero">
+		<div class="background-image" style="background-image: url(images/hero.jpg);"></div>
+		<h1>Welcome to Olu Fadipe Web Design</h1>
+		<h3>That's right</h3>
+	</section>
 
 
-</div>
-<script src="bundle.js"></script>
+
+	<section class="contact">
+		<h3 class="title">Join our newsletter</h3>	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<form>
+			<input type="email" placeholder="Email">
+			<a href="#" class="btn">Subscribe now</a>
+		</form>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
+		</ul>
+		<p>Made by Oluwaseun Fadipe</p>
+		<p>Hope you enjoy the website</p>
+	</footer>
+            <script src="bundle.js"></script>
+
 </body>
+
 </html>

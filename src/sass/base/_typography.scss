@@ -1,0 +1,16 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Bungee|Dosis');
+
+
+$dosis: 'Dosis', sans-serif;
+$bungee: 'Bungee', cursive; 
+h3{
+  color: black;
+  font-family: $bungee;
+}
+h4
+{
+  font-family: $dosis;
+  color: #070709;
+  margin:  1% 0 1% 0;
+}

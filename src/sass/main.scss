@@ -1,7 +1,15 @@
-body {
-  font-family: arial;
-  h1 {
-    font-size: 20px;
-    color: red;
-  }
-}
+//Pages
+@import 'pages/home.scss';
+//Base
+@import 'base/typography.scss';
+@import 'base/color.scss';
+
+//Components
+@import 'components/gallery.scss';
+@import 'components/navigation.scss';
+@import 'components/footer.scss';
+
+//Layout
+@import 'layout/grid.scss';
+@import 'layout/header.scss';
+@import 'layout/grid.scss';
