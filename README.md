@@ -1,87 +1,20 @@
-# Vue, Webpack and SASS
+# :sparkles: Web_Design Assignment :sparkles:
 
-A Vue 2.0 Webpack & vue-loader set up to support a simple SASS and vue workflow. 
+## Introduction
 
-## Aims of the project
+This is my Web Design Project for Fadipe Designs.
+As part of the assignment I had to create a responsive website.
+I created this website using `Visual Studio Code`.
 
-This project can be used as a starting point if you wish to use vue.js to enhance a simple static html web project. It will allow you to create a few choice vue.js components and use them to add dynamic features to your otherwise static HTML website. It will also take care of SASS compilation. 
-
-I created this project out of necessity when teaching a front end web development course. I needed the students to adopt a simple front end workflow when developing simple multi page HTML websites. 
-
-
-##  Enviorment configuration 
-
+## Step to Build/Compile Website Assesets
+I will be using Joe Appleton's `Vue`, `Webpack` and  repo which will compile the `SASS`. 
+Everything will be compiled in the `bundle.js`file.  
 
 
-- This project depends on node version 6 or higher. 
-- On a personal computer the version of node should be determined by running `node –v`.
-  [If the version is lower than 6, then update node & npm before you progress]( https://docs.npmjs.com/getting-started/installing-node)
+## Coding Standards
+Link to SASS file stucture which is 7-1 pattern (which I changed slightly) <<https://www.sitepoint.com/architecture-sass-project/>> and  http://vanseodesign.com/css/sass-directory-structures/
 
-- If cloud9 is being used as a learning tool/development environment, the following commands must be run in order to update to the latest version of node:
-  - `nvm install 6`
-  - `nvm alias default 6` 
+## Git Branching Strategy
+I will be using my version of Git Flow as my branching strategy. The original Git Flow can be found here http://datasift.github.io/gitflow/IntroducingGitFlow.html  
 
-
-
-## Running the project 
-- Clone this repository repository `git clone https://github.com/joeappleton18/Simple-Vue-Webpack-and-SASS.git`
-- Using terminal in the root directory of the project run:
-- `npm install`  : install the dependencies 
-- `npm run watch`: will run webpack continuously 
-
-- The build will be output to the `dist` folder every time you update a file that's part of the 
-project bundle. There is no need to edit anything inside the dist folder. 
-
-### Deploying the project 
-
-- `npm run production`: will minify & uglify  
-
-
-## Creating new HTML pages
-
-- Each time you create a new HTML file you will need to import it in `main.js`
-
-  e.g. ``import '../index.html';``
-
-- Ensure the `<script src="bundle.js"></script>` is included above the `<body>` tag in the HTML page.
-
-
-## Configuration (webpack.config.js)
-
-- The project works out of the box however it is expected that you will extend it.  
-
-### Copying assets to the dist folder 
-
-- To copy non-bundled assets to the dist folder simply add the asset `from` and `to` location to the `CopyWebpackPlugin array`. The asset can be a file or a whole folder. 
-
-```javascript
-new CopyWebpackPlugin([
-            {from: 'src/images', to: 'images'},
-            {from: 'src/fonts', to:  fonts}
-        ])
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## URL to Live Website
