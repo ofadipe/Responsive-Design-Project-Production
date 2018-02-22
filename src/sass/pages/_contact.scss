@@ -1,17 +1,21 @@
-$padding: 6px;
+.contact {
+	background-color: $color_black_haze_approx
+	form 
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-wrap: wrap
+		max-width: 800px
+		width: 80%
+		input 
+			padding: 15px
+			flex: 1
+			margin-right: 30px
+			font-size: 18px
+			color: $color_fuscous_gray_approx
 
-nav {
-  ul {
-    margin: 0;
-    padding: $padding;
-    list-style: none;
-  }
+		.btn 
+			padding: 18px 42px
 
-  li { display: inline-block; }
 
-  a {
-    display: block;
-    padding: $padding 12px;
-    text-decoration: none;
-  }
 }
