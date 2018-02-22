@@ -1,0 +1,92 @@
+
+
+* 
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+html 
+	font: normal 16px $font_0
+	color: $color_fuscous_gray_approx
+
+hr 
+	width: 150px
+	height: 2px
+	background-color: $color_dodger_blue_approx
+	border: 0
+	margin-bottom: 80px
+
+
+
+@media(max-width: 1000px) 
+	section 
+		padding: 100px 50px
+
+	header 
+		padding: 20px 50px
+
+	.reviews 
+		.quote 
+			font-size: 20px
+
+		.author 
+			font-size: 16px
+
+
+	.our-work .grid li 
+		&.small 
+			flex-basis: 100%
+
+		&.large 
+			flex-basis: 100%
+
+
+	.features .grid li 
+		flex-basis: 70%
+		margin-bottom: 65px
+		&:last-child 
+			margin-bottom: 0
+
+
+
+@media(max-width: 600px) 
+	section 
+		padding: 80px 30px
+
+	.features .grid li 
+		flex-basis: 100%
+
+
+h
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+	.author 
+		font-size: 18px
+		margin-bottom: 50px
+		&:last-child 
+			margin-bottom: 0
+
+
+
+
+
+
+
