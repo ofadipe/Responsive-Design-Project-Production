@@ -1,15 +1,27 @@
 //Pages
-@import 'pages/home.scss';
+@import 'pages/hero.scss';
+@import 'pages/contact.scss';
+@import 'pages/features.scss';
+@import 'pages/our-work.scss';
+@import 'pages/reviews.scss';
+@import 'pages/section.scss';
+
 //Base
 @import 'base/typography.scss';
 @import 'base/color.scss';
+@import 'base/other.scss';
+@import 'base/reset.scss';
 
 //Components
 @import 'components/gallery.scss';
 @import 'components/navigation.scss';
-@import 'components/footer.scss';
+@import 'components/buttons.scss';
 
 //Layout
 @import 'layout/grid.scss';
 @import 'layout/header.scss';
 @import 'layout/grid.scss';
+@import 'layout/footer.scss';
+@import 'sidebar.scss';
+
+
