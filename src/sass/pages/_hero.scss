@@ -12,8 +12,9 @@
 		height: 100%;
 		background-size: cover;
 		background-color: $color_dodger_blue_approx;
-		z-index: -1
-		&:after;
+		z-index: -1;
+		&:after}
+		
 			content: '';
 			position: absolute;
 			top: 0;
@@ -22,7 +23,7 @@
 			height: 100%;
 			background-color: $color_mako_approx;
 			opacity: 0.75;}
-}
+
 
 	h1 {
 		font: bold 60px $font_1, $font_0;

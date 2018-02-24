@@ -1,6 +1,7 @@
 .reviews 
-	background-color: $white
-	.quote 
+	{background-color: $white;
+	}
+	.quote {
 		text-align: center
 		width: 80%
 		font-size: 22px
@@ -8,3 +9,4 @@
 		line-height: 1.5
 		margin-bottom: 20px
 		padding: 0
+	}
