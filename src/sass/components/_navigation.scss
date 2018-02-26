@@ -1,29 +1,29 @@
 ul {
-	list-style: none
+	list-style: none}
 	&.grid 
-		width: 100%
-		display: flex
-		flex-wrap: wrap
-		justify-content: center
-}
+		{width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;}
+
 
 nav {
 	list-style: none
 }
 a {
-	text-decoration: none
-	color: inherit
-	cursor: pointer
-	opacity: 0.9
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	opacity: 0.9;
+}
 	&:hover 
-		opacity: 1
-
+		{opacity: 1
+}
 	&.btn 
-		color: $white
-		//If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
-		border-radius: 4px
-		text-transform: uppercase
-		background-color: $color_dodger_blue_approx
-		font-weight: 800
-		text-align: center
+		{color: $white;
+		border-radius: 4px;
+		text-transform: uppercase;
+		background-color: $color_dodger_blue_approx;
+		font-weight: 800;
+		text-align: center;
 }

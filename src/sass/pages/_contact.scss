@@ -1,22 +1,24 @@
 .contact {
-	background-color: $color_black_haze_approx
-	form 
-		display: flex
-		align-items: center
-		justify-content: center
-		flex-wrap: wrap
-		max-width: 800px
-		width: 80%
-		input 
-			padding: 15px
-			flex: 1
-			margin-right: 30px
-			font-size: 18px
-			color: $color_fuscous_gray_approx
+	background-color: $color_black_haze_approx;
 
-		.btn 
-			padding: 18px 42px
-
+	form{ 
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		max-width: 800px;
+		width: 80%;
+	}
+		input{ 
+			padding: 15px;
+			flex: 1;
+			margin-right: 30px;
+			font-size: 18px;
+			color: $color_fuscous_gray_approx;
+		}
+		.btn{ 
+			padding: 18px 42px;
+		}
 
 }
 
