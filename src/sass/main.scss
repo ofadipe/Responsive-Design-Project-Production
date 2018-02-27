@@ -1,3 +1,11 @@
+//Base
+@import 'base/_color.scss';
+@import 'base/typography.scss';
+
+@import 'base/other.scss';
+@import 'base/reset.scss';
+
+
 //Pages
 @import 'pages/hero.scss';
 @import 'pages/contact.scss';
@@ -6,11 +14,6 @@
 @import 'pages/reviews.scss';
 @import 'pages/section.scss';
 
-//Base
-@import 'base/typography.scss';
-@import 'base/_color.scss';
-@import 'base/other.scss';
-@import 'base/reset.scss';
 
 //Components
 @import 'components/gallery.scss';
