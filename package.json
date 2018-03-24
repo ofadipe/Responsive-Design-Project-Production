@@ -38,6 +38,7 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "lowdash": "^1.1.0",
+    "scrollmagic": "^2.0.5",
     "vue": "^2.5.9"
   }
 }
