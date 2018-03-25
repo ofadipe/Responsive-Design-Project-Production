@@ -1,6 +1,5 @@
-.reviews 
-	{background-color: white;
-	}
+.reviews {
+	background-color: $white;
 	.quote {
 		text-align: center;
 		width: 80%;
@@ -10,3 +9,11 @@
 		margin-bottom: 20px;
 		padding: 0;
 	}
+	.author {
+		font-size: 18px;
+		margin-bottom: 50px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

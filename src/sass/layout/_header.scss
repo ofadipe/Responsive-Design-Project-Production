@@ -1,4 +1,4 @@
-.header{
+header {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -7,28 +7,32 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: white;
-    padding: 35px 100px 0;
-}
+	color: $white;
+	padding: 35px 100px 0;
 	h2 {
 		font-family: $font_2, $font_0;
-    }
+	}
 	nav {
-		display: flex; }
+		display: flex;
 		li {
 			margin: 0 15px;
 			&:first-child {
-				margin-left: 0;}
-
+				margin-left: 0;
+			}
 			&:last-child {
-				margin-right: 0;}
-
-    }
-
-
+				margin-right: 0;
+			}
+		}
+	}
+}
 @media(max-width: 700px) {
 	header {
-		flex-direction: column;}
+		flex-direction: column;
 		h2 {
-            margin-bottom: 15px;}
+			margin-bottom: 15px;
+		}
+	}
+	footer {
+		padding: 80px 15px;
+	}
 }

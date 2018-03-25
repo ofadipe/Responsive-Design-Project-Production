@@ -1,3 +1,18 @@
-.оur-work {
-	background-color: white;
+.our-work {
+	background-color: $white;
+	.grid li {
+		padding: 20px;
+		height: 350px;
+		border-radius: 3px;
+		background-clip: content-box;
+		background-size: cover;
+		background-position: center;
+		background-color: $color_mine_shaft_approx;
+		&.small {
+			flex-basis: 40%;
+		}
+		&.large {
+			flex-basis: 60%;
+		}
+	}
 }

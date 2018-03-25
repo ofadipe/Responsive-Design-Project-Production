@@ -1,15 +1,14 @@
 .features {
-	background-color: $color_black_haze_approx;}
-
+	background-color: $color_alto_approx;
 	.grid li {
 		padding: 0 30px;
 		flex-basis: 33%;
-		text-align: center; 
-		 
+		text-align: center;
+		i {
 			font-size: 50px;
 			color: $color_dodger_blue_approx;
-			margin-bottom: 25px;}
-
+			margin-bottom: 25px;
+		}
 		h4 {
 			color: $color_fuscous_gray_approx;
 			font-size: 20px;
@@ -17,5 +16,6 @@
 		}
 		p {
 			margin: 0;
-
+		}
+	}
 }
