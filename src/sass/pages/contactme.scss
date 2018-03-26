@@ -1,0 +1,39 @@
+
+
+%extend_1 {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid $color_celeste_approx;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+
+input[type=text] {
+	@extend %extend_1;
+}
+select {
+	@extend %extend_1;
+}
+textarea {
+	@extend %extend_1;
+}
+input[type=submit] {
+	background-color: $color_dodger_blue_approx;
+	color: $white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	&:hover {
+		background-color: $color_venice_blue_approx;
+	}
+}
+.container {
+	border-radius: 5px;
+	background-color: $white;
+	padding: 20px;
+}
