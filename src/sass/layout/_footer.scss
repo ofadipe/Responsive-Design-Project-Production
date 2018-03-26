@@ -30,3 +30,32 @@ footer {
 		}
 	}
 }
+/* Social Media Buttons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	&:hover {
+		opacity: 0.7;
+	}
+}
+.fa-facebook {
+	background: $color_azure_approx;
+	color: $white;
+}
+.fa-twitter {
+	background: $color_picton_blue_approx;
+	color: $white;
+}
+.fa-linkedin {
+	background: $color_deep_cerulean_approx;
+	color: $white;
+}
+.fa-instagram {
+	background: $color_venice_blue_approx;
+	color: $white;
+}
