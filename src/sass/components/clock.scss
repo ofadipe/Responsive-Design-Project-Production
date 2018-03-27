@@ -1,27 +1,26 @@
-#clock {
-	font-family: $font_4, $font_5;
-	color: $white;
-	text-align: center;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	color: $color_mabel_approx;
-    text-shadow: 0 0 20px $color_cerulean_approx, 0 0 20px rgba(10, 175, 230, 0);
-}
-	.time{
-        letter-spacing: 0.05em;
-        font-size: 80px;
-        padding: 5px 0;
-    }
-    
 
-.date {
-	letter-spacing: 0.1em;
-	font-size: 24px;
+
+//urls
+$url_0: url(https://fonts.googleapis.com/css?family=Dosis);
+
+@import $url_0;
+body {
+	background-color: $black;
 }
-.text {
-	letter-spacing: 0.1em;
-	font-size: 12px;
-	padding: 20px 0 0;
+#inside {
+	font-family: $font_0, $font_1;
+	color: $color_neon_carrot_approx;
+	position: fixed;
+	z-index: 1;
+	height: 1.4em;
+	width: 3.8em;
+	overflow: show;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-size: 10vw;
+	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: 4px 4px 10px $color_punch_40_approx, 4px 4px 20px $color_thunderbird_40_approx, 4px 4px 30px $color_thunderbird_40_approx, 4px 4px 40px $color_milano_red_40_approx;
 }

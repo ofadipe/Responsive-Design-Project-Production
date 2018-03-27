@@ -20,9 +20,5 @@ const app = new Vue({
     el: '#app',
 });
 
-import clockComponent from './components/clock.vue'
-<section class="clock">
-        <p class="date">{{ date }}</p>
-        <p class="time">{{ time }}</p>
-        <p class="text">My Digital Clock... Tick Tock clock⌚️ </p>
-</section>
+import clockcomponent from './components/clock.js';
+
