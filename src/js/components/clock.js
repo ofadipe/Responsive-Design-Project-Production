@@ -1,11 +1,21 @@
-function clock() {
-    var now = new Date();
-    var secs = ('0' + now.getSeconds()).slice(-2);
-    var mins = ('0' + now.getMinutes()).slice(-2);
-    var hr = now.getHours();
-    var Time = hr + ":" + mins + ":" + secs;
-    document.getElementById("inside").innerHTML = Time;
-    requestAnimationFrame(clock);
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
+    var t = setTimeout(function() {
+      startTime()
+    }, 500);
   }
   
-  requestAnimationFrame(clock);
+  function checkTime(i) {
+    if (i < 10) {
+      i = "0" + i
+    }; // add zero in front of numbers < 10
+    return i;
+  }
+  
+  startTime()

@@ -1,26 +1,19 @@
-
-
-//urls
-
-
-@import url(https://fonts.googleapis.com/css?family=Dosis);
-body {
-	background-color: $black;
+#clock {
+	height: 100%;
+	width: 250px;
+	background-color: $color_log_cabin_approx;
+	color: $green;
+	font-size: 3em;
+	font-family: $font_1;
+	padding: 0.5em;
+	text-align: center;
+	letter-spacing: 5px;
+	border: 5px solid $black;
 }
-#inside {
-	font-family: $font_0, $font_1;
-	color: $color_neon_carrot_approx;
-	position: fixed;
-	z-index: 1;
-	height: 1.4em;
-	width: 3.8em;
-	overflow: show;
-	margin: auto;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	font-size: 10vw;
-	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-	text-shadow: 4px 4px 10px $color_punch_40_approx, 4px 4px 20px $color_thunderbird_40_approx, 4px 4px 30px $color_thunderbird_40_approx, 4px 4px 40px $color_milano_red_40_approx;
+#clock-wrapper:before {
+	content: "";
+	position: absolute;
+	width: 309px;
+	height: 114px;
+	background: linear-gradient(top, $white_15, $black_25), linear-gradient(left top, rgba(255, 255, 255, 0), $white_10 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
 }
