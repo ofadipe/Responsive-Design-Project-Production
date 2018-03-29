@@ -18,3 +18,4 @@ Link to SASS file stucture which is 7-1 pattern (which I changed slightly) <<htt
 I will be using my version of Git Flow as my branching strategy. The original Git Flow can be found here http://datasift.github.io/gitflow/IntroducingGitFlow.html  
 
 ## URL to Live Website
+https://ofadipe.github.io/assignment/dist/index.html 
