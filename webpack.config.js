@@ -3,6 +3,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const FileWatcherPlugin = require('file-watcher-webpack-plugin');
 const webpack = require('webpack');
+require('vue2-animate/dist/vue2-animate.min.css');
 
 module.exports = {
     entry: './src/js/main.js',
@@ -92,3 +93,4 @@ if (process.env.NODE_ENV === 'production') {
         })
     ])
 }
+

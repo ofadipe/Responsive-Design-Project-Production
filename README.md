@@ -5,10 +5,15 @@
 This is my Web Design Project for Fadipe Designs.
 As part of the assignment I had to create a responsive website.
 I created this website using `Visual Studio Code`.
+The responsive website is a mock portfolio website which will be a one page HTML.
 
 ## Step to Build/Compile Website Assesets
-I will be using Joe Appleton's `Vue`, `Webpack` and  repo which will compile the `SASS`. 
-Everything will be compiled in the `bundle.js`file.  
+I will be using Joe Appleton's `Vue`, `Webpack` and  repo which will compile the `SASS`.
+Everything will be compiled in the `bundle.js`file.
+
+I converted CSS to SCSS syntax using the website [Here](http://sebastianpontow.de/css2compass/).
+
+Once I converted the CSS into SCSS, I put everything in their respective folders and files within the SASS folder. e.g. All the colours in the sass/base/color.scss
 
 
 ## Coding Standards
