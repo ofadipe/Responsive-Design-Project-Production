@@ -17,6 +17,8 @@ Once I converted the CSS into SCSS, I put everything in their respective folders
 
 
 ## Coding Standards
+The coding standard I used for HTML, was the HTML5 syntax which can be found here from [W3Schools](https://www.w3schools.com/html/html5_intro.asp).
+ 
 Link to SASS file stucture which is 7-1 pattern (which I changed slightly) <<https://www.sitepoint.com/architecture-sass-project/>> and  http://vanseodesign.com/css/sass-directory-structures/
 
 ## Git Branching Strategy
