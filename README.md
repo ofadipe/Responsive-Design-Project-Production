@@ -10,12 +10,11 @@ The responsive website is a mock portfolio website which will be a one page HTML
 ## Step to Build/Compile Website Assesets
 I will be using Joe Appleton's `Vue`, `Webpack` and  repo which will compile the `SASS`.
 Everything will be compiled in the `bundle.js`file.
+I used `npm run watch`  to watch the webpack.
 
 I converted CSS to SCSS syntax using the website [Here](http://sebastianpontow.de/css2compass/).
 
 Once I converted the CSS into SCSS, I put everything in their respective folders and files within the SASS folder. e.g. All the colours in the sass/base/color.scss
-'npm run watch' is what I use in the terminal to run 
-
 ## Coding Standards
 
 ### HTML Coding Standard
@@ -27,7 +26,7 @@ The coding standard I used for SASS was the SCSS syntax aka Sassy CSS, which can
 SCSS is fully compilant with CSS syntax.
 
 To structure
-Link to SASS file stucture which is 7-1 pattern (which I changed slightly) <<https://www.sitepoint.com/architecture-sass-project/>> and  <<http://vanseodesign.com/css/sass-directory-structures/>>
+Link to SASS file stucture which is 7-1 pattern (which I changed slightly) https://www.sitepoint.com/architecture-sass-project/ and  http://vanseodesign.com/css/sass-directory-structures/
 
 ## Git Branching Strategy
 I will be using my version of Git Flow as my branching strategy. The original Git Flow can be found [here](http://datasift.github.io/gitflow/IntroducingGitFlow.html)
