@@ -1,19 +1,37 @@
-#clock {
-	height: 100%;
-	width: 250px;
-	background-color: $color_log_cabin_approx;
-	color: $green;
-	font-size: 3em;
-	font-family: $font_1;
-	padding: 0.5em;
-	text-align: center;
-	letter-spacing: 5px;
-	border: 5px solid $black;
+* {
+    box-sizing: border-box;   
 }
-#clock-wrapper:before {
-	content: "";
-	position: absolute;
-	width: 309px;
-	height: 114px;
-	background: linear-gradient(top, $white_15, $black_25), linear-gradient(left top, rgba(255, 255, 255, 0), $white_10 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+
+body {
+    background-color:beige;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align:center;   
+}
+
+#time {
+  margin-top:10%;
+}
+
+#time p {
+    text-align:center;
+    font-size: 5em;
+    margin:0;
+    padding:0;
+}
+
+#time span {
+    display:block;
+    text-align:center;
+    color:maroon;
+    font-size: 2.5em;   
+    margin:0;
+    padding:0;    
 }

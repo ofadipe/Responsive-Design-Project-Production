@@ -34,3 +34,30 @@ I will be using my version of Git Flow as my branching strategy. The original Gi
 ## URL to Live Website
 This is the link to the live page.
 https://ofadipe.github.io/assignment/dist/index.html 
+
+## Assignment Files
+The Assignments Files folder includes the following:
+### Test Plan
+A PDF of the questionaire, you can also find this online from [Google Forms](https://docs.google.com/forms/d/10yNsi4FRhIv7R51J604NXMhdqTdZiRpIyqC6cd55vII/prefill)
+
+User Feedback Word Document, this features the user feedback.
+
+#### View Ports
+This folder is just three PDF documents showing the website in Desktop, Tablet and Mobile view.
+
+### Wireframes
+#### High
+##### About Page
+This folder has high fidelity images of the about page
+#### Newsletter Page
+This folder has high fidelity images of the Newsletter page
+##### Reviews Page
+#### Reviews Page
+This folder has high fidelity images of the Reviews page
+##### Splash Page
+This folder has high fidelity images of the Splash page
+
+Also features a PDF of all of the high fidelity pages in mobile, tablet and desktop.
+
+#### Low
+This folder contains all of the low fidelity images 
