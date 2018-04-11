@@ -49,10 +49,9 @@ This folder is just three PDF documents showing the website in Desktop, Tablet a
 #### High
 ##### About Page
 This folder has high fidelity images of the about page
-#### Newsletter Page
+##### Newsletter Page
 This folder has high fidelity images of the Newsletter page
 ##### Reviews Page
-#### Reviews Page
 This folder has high fidelity images of the Reviews page
 ##### Splash Page
 This folder has high fidelity images of the Splash page
